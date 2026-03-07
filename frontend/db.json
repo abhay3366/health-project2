@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Super Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "coach_id": null,
+      "avatar": "SA",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "id": "1772609139938",
+      "name": "Ankit",
+      "email": "ankit@gmail.com",
+      "password": "12345",
+      "role": "coach",
+      "coach_id": null,
+      "createdAt": "2026-03-04T07:25:39.939Z",
+      "isActive": true,
+      "avatar": "AN"
+    },
+    {
+      "id": "1772611103885",
+      "name": "saurabh",
+      "email": "accevateabhay@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "coach_id": null,
+      "createdAt": "2026-03-04T07:58:23.885Z",
+      "isActive": true,
+      "avatar": "SA"
+    },
+    {
+      "id": "1772611181567",
+      "name": "tanu",
+      "email": "tanu@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "coach_id": "1772609139938",
+      "createdAt": "2026-03-04T07:59:41.568Z",
+      "isActive": true,
+      "avatar": "TA"
+    },
+    {
+      "id": "1772611221505",
+      "name": "ranu",
+      "email": "ranu@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "coach_id": "1772609139938",
+      "createdAt": "2026-03-04T08:00:21.505Z",
+      "isActive": true,
+      "avatar": "RA"
+    }
+  ],
+  "activities": [
+    {
+      "id": "1772879050857",
+      "date": "7/3/2026",
+      "time": "03:54 pm",
+      "userId": "1772611103885",
+      "category": "strength",
+      "workout": "Deadlift",
+      "intensity": "medium",
+      "duration": 2,
+      "calories": 12,
+      "distance": null,
+      "sets": 72,
+      "reps": 71,
+      "weight": 18,
+      "notes": "Inventore sit quas",
+      "timestamp": 1772879050857
+    }
+  ],
+  "medicines": [
+    {
+      "id": "1772880989574",
+      "userId": "1772611103885",
+      "medType": "tablet",
+      "name": "Eaque non tempor dol",
+      "dosage": 60,
+      "dosageUnit": "%",
+      "frequency": "once",
+      "customFrequency": "",
+      "mealTiming": "after",
+      "startDate": "1979-11-23",
+      "endDate": "1989-12-14",
+      "reminderTime": "05:50",
+      "stock": 14,
+      "notes": "Ut fugiat minima duc",
+      "prescribedBy": "Sed incidunt deleni",
+      "purpose": "Laudantium dolores",
+      "takenDates": [],
+      "createdAt": 1772880989574
+    },
+    {
+      "id": "1772881133578",
+      "userId": "1772611103885",
+      "medType": "tablet",
+      "name": "Architecto aperiam d",
+      "dosage": 26,
+      "dosageUnit": "g",
+      "frequency": "once",
+      "customFrequency": "",
+      "mealTiming": "after",
+      "startDate": "1976-10-13",
+      "endDate": "1982-08-07",
+      "reminderTime": "12:35",
+      "stock": 54,
+      "notes": "Molestiae deserunt q",
+      "prescribedBy": "Qui modi rem nobis t",
+      "purpose": "Nostrum consectetur",
+      "takenDates": [],
+      "createdAt": 1772881133578
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
